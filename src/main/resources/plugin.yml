@@ -1,0 +1,31 @@
+name: BetterHome
+version: '1.0.0'
+main: de.scholle.homePlugin.HomePlugin
+api-version: '1.18'
+prefix: Home
+load: STARTUP
+authors: [ Mobilestars ]
+description: Simple home plugin with safety check
+website: https://modrinth.com/project/better-homes
+
+commands:
+  sethome:
+    description: Sets your home location
+    permission: betterhome.sethome
+  home:
+    description: Teleports you to your home
+    permission: betterhome.home
+  delhome:
+    description: Deletes your home location
+    permission: betterhome.delhome
+
+permissions:
+  betterhome.sethome:
+    description: Allows setting a home
+    default: true
+  betterhome.home:
+    description: Allows teleporting to your home
+    default: true
+  betterhome.delhome:
+    description: Allows deleting your home
+    default: true

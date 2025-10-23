@@ -1,0 +1,12 @@
+# Default maximum homes per player (without any special permission)
+default-home-limit: 1
+
+# Optional: home limits for specific ranks (LuckPerms groups)
+# Example:
+# rank-limits:
+#   vip: 3
+#   premium: 5
+#   admin: 10
+rank-limits: {}
+# /lp group vip permission set betterhome.group.vip true
+# /lp group admin permission set betterhome.group.admin true
