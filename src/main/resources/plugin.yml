@@ -1,5 +1,5 @@
 name: BetterHome
-version: '1.0.0'
+version: '1.0.1'
 main: de.scholle.homePlugin.HomePlugin
 api-version: '1.18'
 prefix: Home
